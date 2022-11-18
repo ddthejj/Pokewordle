@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="S.S.">
+    <meta name="description" content="this is where I am practicing using javascript to make things go">
+    <title>JavascriptPractice</title>
+    <link rel="icon" href="pokeball.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<body>
+
+    <!--<h1 id="header">henlo stinky world</h1>
+    <button onclick="pressed()">Colour!</button>
+    <button onclick="press()"">switch?</button>
+    <input type="text" id="inp">
+    <input type="text" id="ja"> -->
+    <h1 id="header">I will parse your input</h1>
+    <input type="text" id="input">
+    <button onclick="parseInput()">submit</button>
+    <p id="output"></p>
+
+    <script>
+
+        function parseInput(){
+            var text = document.getElementById("input").value 
+            output.innerHTML= "You typed: " + text.trim()
+
+        }
+
+
+       /* function add(a, b){
+            return a+b
+        }
+
+        console.log(add(6,73))
+
+        function discuss(a,b){
+            console.log(a+b)
+        }
+
+        discuss(5,5)
+
+        function red(){
+            document.getElementById("header").style.color="#E32F08"
+
+        }
+
+        function blue(){
+            document.getElementById("header").style.color="#08BCE3"
+        }
+
+        function pressed(){
+            var text=document.getElementById("inp").value 
+            if (text==="red"){
+                document.getElementById("header").style.color="#E32F08"
+            }else if(text==="blue"){
+                document.getElementById("header").style.color="#08BCE3"
+            }else{
+            document.getElementById("header").style.color="violet"
+        }
+    } */ 
+
+    /*
+        function press(){
+            var text=document.getElementById("ja").value
+            switch (text){
+                case "red": 
+                document.getElementById("header").style.color="red"
+                    break;
+                case "blue":
+                document.getElementById("header").style.color="blue"
+                    break;
+                default:
+                    document.getElementById("header").style.color="violet"
+            }
+        } */ 
+
+
+
+    </script>
+
+</body>
+
+</html>
